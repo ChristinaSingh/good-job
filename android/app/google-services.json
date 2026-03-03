@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910674201667",
+    "project_id": "goodjobtest-25f22",
+    "storage_bucket": "goodjobtest-25f22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910674201667:android:34c492cb06d60d2358d8f6",
+        "android_client_info": {
+          "package_name": "com.good_job.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZnjSnXTPMFwaX2Itg3CjncHxBgI8AMMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
