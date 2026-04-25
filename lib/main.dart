@@ -126,12 +126,15 @@ Future<void> main() async {
     );
   }
   runApp(
-    GetMaterialApp(
-      title: "Good Job",
-      initialRoute: AppPages.INITIAL,
-      getPages: AppPages.routes,
-      debugShowCheckedModeBanner: false,
-      theme: MThemeData.themeData(),
+    SafeArea(
+      top: false,
+      child: GetMaterialApp(
+        title: "Good Job",
+        initialRoute: AppPages.INITIAL,
+        getPages: AppPages.routes,
+        debugShowCheckedModeBanner: false,
+        theme: MThemeData.themeData(),
+      ),
     ),
   );
 }
@@ -163,7 +166,7 @@ Future<void> main() async {
 
 const AndroidNotificationChannel channel = AndroidNotificationChannel(
   'high_importance_channel', // id
-  'High Importance Notifications', // title
+  'High Importance Notifications',
   importance: Importance.high,
 );
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =

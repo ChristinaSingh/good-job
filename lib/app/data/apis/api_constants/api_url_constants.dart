@@ -1,9 +1,8 @@
 class ApiUrlConstants {
   static const String baseUrl =
-      'https://server-php-8-2.technorizen.com/good_job/api/';
-  static const String baseUrlForGetMethodParams =
-      'server-php-8-2.technorizen.com';
-
+      // 'https://server-php-8-2.technorizen.com/good_job/api/';
+      'https://s82.technorizen.com/good_job/api/';
+  static const String baseUrlForGetMethodParams = 's82.technorizen.com';
   static const String endPointOfUserSignup = '${baseUrl}Register';
   static const String endPointOfSendUserOtp = '${baseUrl}sendUserOtp';
   static const String endPointOfCheckOtp = '${baseUrl}check-otp';
@@ -47,5 +46,6 @@ class ApiUrlConstants {
   static const String endPointOfCheckOutSession =
       '${baseUrl}create-checkout-session';
 
-  static const String  endPointOfProcessPayment =  '${baseUrl}payment_status_complete';
+  static const String endPointOfProcessPayment =
+      '${baseUrl}payment_status_complete';
 }
